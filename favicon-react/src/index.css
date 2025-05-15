@@ -1,0 +1,33 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #666;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.98);
+}
