@@ -41,7 +41,9 @@
   color: #888;
 }
 
-h1{
+div{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+
 }
