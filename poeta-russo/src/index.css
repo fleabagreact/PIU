@@ -1,0 +1,13 @@
+:root {
+  --bg-light: #f9f9f9;
+  --text-light: #1a1a1a;
+  --bg-dark: #1e1e1e;
+  --text-dark: #f0f0f0;
+  --accent: #7b5cd6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
