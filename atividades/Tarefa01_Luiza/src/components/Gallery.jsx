@@ -8,6 +8,8 @@ import lestat from '../assets/characters/lestat.jpg'
 import effie from '../assets/characters/effie.jpg'
 import sylvie from '../assets/characters/sylvie.jpg'
 import maren from '../assets/characters/maren.jpg'
+import rhaenyra from '../assets/characters/rhaenyra.jpg'
+import rapunzel from '../assets/characters/rapunzel.jpg'
 
 const characters = [
   {
@@ -51,6 +53,20 @@ const characters = [
     origin: 'Bones and All',
     image: maren,
     description: 'Maren Yearly é uma jovem canibal em busca de respostas sobre seu passado e natureza. Em sua jornada pelos EUA dos anos 1980, ela descobre o amor e tenta reconciliar seus instintos com sua humanidade.'
+  },
+  {
+    id: 7,
+    name: 'Rhaenyra',
+    origin: 'House of the Dragon',
+    image: rhaenyra,
+    description: 'Rhaenyra Targaryen, herdeira nomeada do Rei Viserys I, lutou pelo Trono de Ferro contra seu meio-irmão Aegon II na guerra civil conhecida como "A Dança dos Dragões". Montando sua dragão Syrax, enfrentou traições e perdas antes de ser traída e morta. Seu legado viveu através de seu filho, Aegon III, que uniu os Targaryens.'
+  },
+  {
+  id: 8,
+    name: 'Rapunzel',
+    origin: 'Enrolados',
+    image: rapunzel,
+    description: 'Rapunzel é uma jovem de longos cabelos dourados e mágicos, mantida prisioneira em uma torre alta por uma feiticeira egoísta, que a criou como filha. Seu destino muda quando um ladrão charmoso, Flynn Rider, escala a torre e a ajuda a fugir. Juntos, eles embarcam em uma aventura cheia de perigos e descobertas, enquanto Rapunzel busca realizar seu maior sonho: ver as luzes flutuantes que aparecem no céu todo ano em seu aniversário.'
   }
 ]
 
