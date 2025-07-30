@@ -7,10 +7,10 @@ function App() {
 
   const buscarCep = () => {
     setErro('');
-    fetch(`https://viacep.com.br/ws/${cep}/json/`)
-      .then((res) => res.json())
+    fetch(`https://viacep.com.br/ws/${cep}/json/`)//pega api
+      .then((res) => res.json())//puxa chance de erro ou certo
       .then((data) => {
-        if (data.erro) {
+        if (data.erro) {//se o cep for achado
           setErro('CEP não encontrado!');
           setEndereco(null);
         } else {
